@@ -1,0 +1,32 @@
+{
+  "name": "practice_private_blockchain_code_session",
+  "version": "1.0.0",
+  "description": "Blockchain has the potential to change the way that the world approaches data. Develop Blockchain skills by understanding the data model behind Blockchain by developing your own simplified private blockchain.",
+  "main": "simpleChain.js",
+  "scripts": {
+    "fix-memory-limit": "cross-env LIMIT=8192 increase-memory-limit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "async": "^3.2.4",
+    "axios": "^0.27.2",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.6",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "level": "^6.0.1",
+    "memdown": "^6.1.1",
+    "merkle": "^0.6.0",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "hbs": "^2.3.1",
+    "mocha": "^2.5.3"
+  }
+}
